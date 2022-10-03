@@ -18,12 +18,16 @@
 }
 
 .user-card {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 95%;
     margin: auto;
     margin-top: 50px;
     height: 350px;
+    display: flex;
+    background-color: #06394B;
+    color: #F2C254;
 }
+
 
 .img-block img{
     width: 400px;
@@ -31,5 +35,30 @@
     display: block;
 }
 
+.info-block {
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    justify-content: space-between;
+}
 
+.info-right__box{
+    margin: auto;
+}
+.info-left__box{
+    margin: auto;
+    margin-left: 300px;
+}
+
+.change-info__btn a{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: #F2C254;
+    padding: 15px;
+    background-color: #06394B;
+    text-decoration: none;
+    border: 6px;
+}
 

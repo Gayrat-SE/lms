@@ -1,0 +1,35 @@
+.statistic-cards {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+
+.stat-card {
+    border: 1px solid #000;
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #06394B;
+    color: #F2C254;
+    font-weight: 700;
+}
+
+.user-card {
+    border: 1px solid #000;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.img-block img{
+    width: 400px;
+    height: 350px;
+    display: block;
+}
+
+
+

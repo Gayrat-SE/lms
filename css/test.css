@@ -1,0 +1,33 @@
+.test-section{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.test-header {
+
+    text-align: center;
+}
+.test-body {
+    margin-top: 50px;
+}
+
+.test-answers label  {
+    display: block;
+}
+
+.pagination {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #fdb342;
+    background-color: #333;
+    border-radius: 6px;
+    padding: 10px;
+}
